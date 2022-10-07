@@ -1,0 +1,34 @@
+//2)	 По заданному номеру дня недели вывести его название.
+Console.WriteLine("weekdays: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday from 1 to 7");
+Console.WriteLine("put number from 1 to 7");
+int weekday = int.Parse(Console.ReadLine() ?? "0");
+if (weekday <= 7)
+switch (weekday)
+{
+    case 1: 
+    Console.Write("Monday ");
+    break;
+    case 2: 
+    Console.Write("Tuesday ");
+    break;
+    case 3: 
+    Console.Write("Wednesday ");
+    break;
+    case 4: 
+    Console.Write("Thursday ");
+    break;
+    case 5: 
+    Console.Write("Friday ");
+    break;
+    case 6: 
+    Console.Write("Saturday ");
+    break;
+    case 7: 
+    Console.Write("Sunday ");
+    break;
+}    
+    else 
+    {
+    Console.Write("Not a weekday ");
+    }
+
