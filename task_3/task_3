@@ -1,0 +1,14 @@
+// Найти максимальное из трех чисел
+Console.WriteLine("enter x ");
+int x = int.Parse(Console.ReadLine() ?? "0");
+Console.WriteLine("enter y ");
+int y = int.Parse(Console.ReadLine() ?? "0");
+Console.WriteLine("enter z ");
+int z = int.Parse(Console.ReadLine() ?? "0");
+
+int max = x;
+
+if (x > max) max = x;
+if (y > max) max = y;
+if (z > max) max = z;
+Console.WriteLine("max " + max);
