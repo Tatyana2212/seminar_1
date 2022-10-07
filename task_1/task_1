@@ -1,0 +1,11 @@
+// 1)	По двум заданным числам проверять является ли первое квадратом второго.
+Console.WriteLine ("enter x: ");
+int number1 = int.Parse(Console.ReadLine() ?? "0");
+Console.WriteLine ("enter y: ");
+int number2 = int.Parse(Console.ReadLine() ?? "0");     
+
+     if (number1 == (number2 * number2))   
+         Console.WriteLine("the first is the square of the second");
+         
+       else if (number1 != (number2 * number2))
+  Console.WriteLine("the first is not a square of the second");
