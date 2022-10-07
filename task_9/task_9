@@ -1,0 +1,7 @@
+//Дано число из отрезка [10, 99]. Показать наибольшую цифру числа.
+int numberA = new Random().Next(1, 100);//1 2 3 4...7
+Console.WriteLine($"Number {numberA}");
+int second = (numberA % 10);
+int first = (numberA / 10);
+Console.WriteLine($"first {first}, second {second}");
+Console.WriteLine("Max: " + Math.Max(first, second));
