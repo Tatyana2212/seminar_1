@@ -1,0 +1,10 @@
+// Выяснить является ли число чётным.
+Console.WriteLine("Enter a number ");
+int number = int.Parse(Console.ReadLine() ?? "0");
+
+if (number% 2 == 0)
+Console.WriteLine("even number ");
+
+if (number% 2 == 1)
+System.Console.WriteLine("an odd number ");
+
