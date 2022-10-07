@@ -1,0 +1,10 @@
+// Удалить вторую цифру трёхзначного числа.
+Console.Write("Enter three-digit number:");
+int number = int.Parse(Console.ReadLine() ?? "0");
+int third = ((number % 100) % 10);
+int second = ((number % 100) / 10);
+int first = (number / 100);
+int res = (first * 10) + third;
+Console.WriteLine($"first digit {first}, second digit {second}, third digit {third}");
+Console.WriteLine($"{first}{third}");
+Console.WriteLine(res);
