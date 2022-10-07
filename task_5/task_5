@@ -1,0 +1,23 @@
+// Показать числа от -N до N.
+Console.WriteLine("enter a number:");
+double number = double.Parse(Console.ReadLine() ?? "0");
+double x = (number * -1);
+
+if (number > 0)
+{
+    while (x <= number)
+    {
+        Console.WriteLine(x);
+        x++;
+    }
+}
+else
+{
+    
+        while (number >= x)
+
+    {
+        Console.WriteLine(number);
+        number++;
+    }
+}
